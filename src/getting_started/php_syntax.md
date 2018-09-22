@@ -36,19 +36,6 @@ The above example shows how you can embed PHP codes within HTML to create well-f
 
 What happend here is? when you run this code the PHP engine exacuted the instructions between the <?php … ?> tags and leave rest of the thing as it is. At the end the web server send the final output back to your browser which is completely in HTML.
 
-## Python Indentations
-
-Where in other programming languages the indentation in code is for readability only, in Python the indentation is very important.
-
-Python uses indentation to indicate a block of code.
-
-```python
-if 5 > 2:
-  print("Five is greater than two!")
-```
-
-Python will give you an error if you skip the indentation.
-
 ## Comments
 
 PHP has commenting capability for the purpose of in-code documentation.
