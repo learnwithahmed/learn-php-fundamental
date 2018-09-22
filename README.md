@@ -12,7 +12,7 @@ Each PHP script in this repository has the following structure:
 1. **Getting Started**
    - [What is PHP](src/getting_started/what_is_php.md)
    - [PHP Syntax](src/getting_started/php_syntax.md)
-   - [Variables](src/getting_started/test_variables.php)
+   - [Variables](src/getting_started/VariablesTest.php)
 2. **Operators**
    - [Arithmetic Operators](src/operators/test_arithmetic.php) (`+`, `-`, `*`, `/`, `%`, `**`)
    - [Bitwise Operators](src/operators/test_bitwise.php) (`&`, `|`, `^`, `>>`, `<<`, `~`)
