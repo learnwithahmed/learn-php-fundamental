@@ -21,7 +21,12 @@ use PHPUnit\Framework\TestCase;
 
 class VariablesTest extends TestCase
 {
-    public function testingVariables()
+  /**
+   * A basic Variables Test example.
+   *
+   * @return void
+   */
+    public function testBasicVariablesTest()
     {
         // Declaring variables | تعريف المتغيرات
         $integerVariable = 10;
