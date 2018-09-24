@@ -29,34 +29,36 @@ class ComparisonTest extends TestCase
     {
         // Comparison operators | معاملات المقارنة
 
-        $number = 5;
+        $number = 10;
 
         # 1- Equal
-        $this->assertTrue($number == 5);
+        $this->assertTrue($number == 10);
 
         # 2- Identical
-        $this->assertTrue($number === 5);
+        $this->assertTrue($number === 10);
+        $this->assertFalse($number === '10'); // comparing same value in int with string, gives false
 
         # 3- Not equal
-        $this->assertTrue($number != 3);
+        $this->assertTrue($number != 7);
 
         # 4- Not equal
-        $this->assertTrue($number <> 3);
+        $this->assertTrue($number <> 7);
 
         # 5- Not Identical
-        $this->assertTrue($number !== 3);
+        $this->assertTrue($number !== 7);
+        $this->assertTrue($number !== '10'); // comparing same value in int with string, gives true
 
         # 6- Greater than
-        $this->assertTrue($number > 3);
+        $this->assertTrue($number > 7);
 
         # 7- Less than
-        $this->assertFalse($number < 3);
+        $this->assertFalse($number < 7);
 
         # 8- Greater than or equal to
-        $this->assertTrue($number >= 3);
+        $this->assertTrue($number >= 7);
 
         # 5- Less than or equal to
-        $this->assertFalse($number <= 3);
+        $this->assertFalse($number <= 7);
 
     }
 }
