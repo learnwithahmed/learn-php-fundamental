@@ -1,4 +1,4 @@
-# Learning PHP
+# Learn by Doing: PHP Fundamental
 
 > A collection of PHP scripts that are split by [topics](#table-of-contents) and contain code examples with explanations, different use cases and CLI Interface for Solving Exercises.
 
