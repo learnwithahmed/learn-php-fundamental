@@ -1,4 +1,4 @@
-# Learn by Doing: PHP Fundamental
+# Learn by Doing: PHP Fundamental | اساسيات لغة بي اج بي
 
 > A collection of PHP scripts that are split by [topics](#table-of-contents) and contain code examples with explanations, different use cases and CLI Interface for Solving Exercises.
 
@@ -7,23 +7,23 @@
 Each PHP script in this repository has the following structure:
 .....
 
-## Table of Contents
+## Table of Contents | الفهرست
 
-1. **Getting Started**
-   - [What is PHP](src/getting_started/what_is_php.md)
-   - [PHP Syntax](src/getting_started/php_syntax.md)
-   - [Variables](src/getting_started/VariablesTest.php)
-2. **Operators**
-   - [Arithmetic Operators](src/operators/ArithmeticTest.php) (`+`, `-`, `*`, `/`, `%`, `**`)
-   - [Bitwise Operators](src/operators/BitwiseTest.php) (`&`, `|`, `^`, `>>`, `<<`, `~`)
-   - [Assignment Operators](src/operators/AssigmentTest.php) (`=`, `+=`, `-=`, `*-*=`, `/=` )
-   - [Comparison Operator](src/operators/ComparisonTest.php) (`==`, `===`, `!=`, `<>`, `!==`, `>`, `<`, `>=`, `<=`, `<=>`)
-   - [Logical Operators](src/operators/LogicalTest.php) (`and`, `or`, `xor`, `!not`, `&&`, `||`)
-   - [Execution Operators](src/operators/ExecutionTest.php) (` backticks (``) `)
-   - [String Operators](src/operators/StringTest.php) (`concatenation (.)`, `concatenating assignment (.=)`)
-   - [Incrementing/Decrementing Operators](src/operators/IncTest.php) (`++`, `--`)
-   - [Type Operators](src/operators/TypeTest.php) (`instanceof`)
-3. **Data Types**
+1. **Getting Started - مقدمات**
+   - [What is PHP | تعريف اللغة](src/getting_started/what_is_php.md)
+   - [PHP Syntax | الصيغة الكتابية للغة](src/getting_started/php_syntax.md)
+   - [Variables | المتغيرات](src/getting_started/VariablesTest.php)
+2. **Operators - معاملات**
+   - [Arithmetic Operators | معاملات حسابية](src/operators/ArithmeticTest.php) (`+`, `-`, `*`, `/`, `%`, `**`)
+   - [Bitwise Operators | معاملات البت](src/operators/BitwiseTest.php) (`&`, `|`, `^`, `>>`, `<<`, `~`)
+   - [Assignment Operators | معاملات التخصيص](src/operators/AssigmentTest.php) (`=`, `+=`, `-=`, `*-*=`, `/=` )
+   - [Comparison Operator | معاملات المقارنة](src/operators/ComparisonTest.php) (`==`, `===`, `!=`, `<>`, `!==`, `>`, `<`, `>=`, `<=`, `<=>`)
+   - [Logical Operators | معاملات المنطية](src/operators/LogicalTest.php) (`and`, `or`, `xor`, `!not`, `&&`, `||`)
+   - [Execution Operators | معامل التنفيذ](src/operators/ExecutionTest.php) (` backticks (``) `)
+   - [String Operators | معاملات النصية](src/operators/StringTest.php) (`concatenation (.)`, `concatenating assignment (.=)`)
+   - [Incrementing/Decrementing Operators | معاملات الزيادة والنقصان](src/operators/IncTest.php) (`++`, `--`)
+   - [Type Operators | معامل الانواع](src/operators/TypeTest.php) (`instanceof`)
+3. **Data Types - أنواع البيانات**
    - [Scalar](src/data_types/ScalarTest.php) (integer, float, including booleans)
    - [Strings](src/data_types/StringsTest.php) and their methods
    - [Compound](src/data_types/ArrayTest.php) (array and object) and their methods
@@ -39,7 +39,7 @@ Each PHP script in this repository has the following structure:
    - [The `continue` statement](src/control_flow/ContinueTest.php)
    - [The `switch` statement](src/control_flow/SwitchTest.php)
    - [Alternative syntax for control structures](src/control_flow/AlternativeSyntaxTest.php)
-5. **Functions**
+5. **Functions - الدوال**
    - [Function Definition](src/functions/FunctionDefinitionTest.php) (`function` and `return` statements)
    - [Function Arguments](src/functions/FunctionDefaultArgumentsTest.php) (with `default` arguments)
    - [Variable Functions](src/functions/FunctionVariableTest.php)
